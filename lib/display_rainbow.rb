@@ -2,7 +2,8 @@
 def display_rainbow(colors)
   s=""
   for i in 0..colors.length
-    s.concat("#{colors[i][0].uppercase}: #{color[i]}, ")
+    s1= "#{colors[i]}.chars.first.uppercase"
+    s.concat("s1: #{color[i]}, ")
   end
   return s
 end
