@@ -9,5 +9,5 @@ def display_rainbow(colors)
     s = s.concat("#{s1}: #{colors[i]}, ")
     s.concat("#{s2}: #{colors[n-1]}")
   end
-  return s
+  puts s
 end
