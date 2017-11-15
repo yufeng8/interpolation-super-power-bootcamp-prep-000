@@ -5,8 +5,8 @@ def display_rainbow(colors)
   for i in 0..limit
     s1= colors[i][0].upcase
     n=colors.length
-    s2= colors[n-1].upcase
     s = s + "#{s1}: #{colors[i]}, "
+    s2= colors[n-1].upcase
     s = s + "#{s2}: #{colors[n-1]}"
   end
   puts s
