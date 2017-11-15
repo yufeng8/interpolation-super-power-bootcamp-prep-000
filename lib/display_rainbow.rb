@@ -7,7 +7,7 @@ def display_rainbow(colors)
     s1= colors[i][0].upcase
     s = s + "#{s1}: #{colors[i]}, "
   end
-  s2= colors[n-1].upcase
-  s = s + "#{s2}: #{colors[n-1]}"
+  #s2= colors[n-1].upcase
+  #s = s + "#{s2}: #{colors[n-1]}"
   puts s
 end
