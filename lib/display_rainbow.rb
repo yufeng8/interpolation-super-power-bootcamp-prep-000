@@ -4,9 +4,10 @@ def display_rainbow(colors)
   limit = colors.length-1
   for i in 0..limit
     s1= colors[i][0].upcase
-    s2= colors[colors.length-1].upcase
+    n=colors.length
+    s2= colors[n-1].upcase
     s = s.concat("#{s1}: #{colors[i]}, ")
-    s.concat("#{s2}: #{colors[colors.length-1]}")
+    s.concat("#{s2}: #{colors[n-1]}")
   end
   return s
 end
